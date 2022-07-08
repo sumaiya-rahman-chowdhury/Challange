@@ -28,12 +28,14 @@
 	text-align: justify;
 	font-weight: lighter;
 }
-.img{
-	margin-right:20px;
-	height: 100%;
-	width: 100%;
-
-
+.col-img{
+	background-image: url("img/image-product-desktop.jpg");
+	flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-right: 40px;
 }
 .price{
 	margin-top: 40px;
